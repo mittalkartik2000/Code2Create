@@ -56,6 +56,7 @@ void loop() {
   if(dist>10 && dist<30)
   {
     Serial.println("SOMETHING");
+    delay(100);
   digitalWrite(tri, LOW);
   delayMicroseconds(2);
   digitalWrite(tri, HIGH);
